@@ -1,9 +1,9 @@
 import streamlit as st
 
-from agents.language_agent import language_agent
-from agents.scam_agent import scam_agent
-from agents.financial_agent import financial_agent
-from agents.risk_agent import risk_agent
+from language_agent import language_agent
+from scam_agent import scam_agent
+from financial_agent import financial_agent
+from risk_agent import risk_agent
 
 
 st.set_page_config(
